@@ -206,13 +206,13 @@ nav {
   font-weight: 600;
   color: #585858;
 }
-.a-card:hover i{
-    transform: skew(10deg,-10deg);
+.a-card:hover i {
+  transform: skew(10deg, -10deg);
 }
 /*----------- achievement section ended ----------*/
 
 /* AD STARTED HERE */
-.ad-container{
+.ad-container {
   margin-top: 15%;
   width: 70%;
   margin-left: 20%;
@@ -227,10 +227,10 @@ nav {
     ),
     url(../images/retro-ad1.png);
 }
-.ad-container h1{
-    color: #fff;
-    font-size: 3em;
-    text-align: center;
+.ad-container h1 {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
 }
 /* AD ENDED HERE */
 
@@ -273,7 +273,7 @@ nav {
   border-bottom: 3px solid #777;
   outline: none;
 }
-.submit-btn{
+.submit-btn {
   margin-top: 5%;
   margin-left: 45%;
 }
@@ -487,11 +487,11 @@ nav {
       ),
       url(../images/retro-ad1.png);
   }
-  .ad-container h1{
+  .ad-container h1 {
     color: #fff;
     font-size: 1.2em;
     text-align: center;
-}
+  }
   /* AD ENDED HERE */
 
   /* contact */
@@ -733,26 +733,30 @@ nav {
     font-weight: 500;
     color: #585858;
   }
-  
-    /* AD STARTED HERE */
-    .ad-container{
-        margin-top: 15%;
-        width: 80%;
-        margin-left: 10%;
-        height: 80px;
-        padding: 10px 0;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to left, rgba(5, 63, 151, 0.6), rgba(236, 110, 37, 0.5)),
-        url(../images/retro-ad1.png);
-    }
-    .ad-container h1{
-        color: #fff;
-        font-size: 2em;
-        text-align: center;
-    }
-    /* AD ENDED HERE */
+
+  /* AD STARTED HERE */
+  .ad-container {
+    margin-top: 15%;
+    width: 80%;
+    margin-left: 10%;
+    height: 80px;
+    padding: 10px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        to left,
+        rgba(5, 63, 151, 0.6),
+        rgba(236, 110, 37, 0.5)
+      ),
+      url(../images/retro-ad1.png);
+  }
+  .ad-container h1 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+  }
+  /* AD ENDED HERE */
 
   /* contact */
   .contact-container {
@@ -940,25 +944,29 @@ nav {
     color: #585858;
   }
 
-    /* AD STARTED HERE */
-    .ad-container{
-        margin-top: 15%;
-        width: 80%;
-        margin-left: 10%;
-        height: 80px;
-        padding: 10px 0;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to left, rgba(5, 63, 151, 0.6), rgba(236, 110, 37, 0.5)),
-        url(../images/retro-ad1.png);
-    }
-    .ad-container h1{
-        color: #fff;
-        font-size: 2.2em;
-        text-align: center;
-    }
-    /* AD ENDED HERE */
+  /* AD STARTED HERE */
+  .ad-container {
+    margin-top: 15%;
+    width: 80%;
+    margin-left: 10%;
+    height: 80px;
+    padding: 10px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        to left,
+        rgba(5, 63, 151, 0.6),
+        rgba(236, 110, 37, 0.5)
+      ),
+      url(../images/retro-ad1.png);
+  }
+  .ad-container h1 {
+    color: #fff;
+    font-size: 2.2em;
+    text-align: center;
+  }
+  /* AD ENDED HERE */
 
   /* contact */
   .contact-container {
@@ -1119,26 +1127,30 @@ nav {
     font-weight: 500;
     color: #585858;
   }
-  
-    /* AD STARTED HERE */
-    .ad-container{
-        margin-top: 15%;
-        width: 70%;
-        margin-left: 15%;
-        height: 100px;
-        padding: 10px 0;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to left, rgba(5, 63, 151, 0.6), rgba(236, 110, 37, 0.5)),
-        url(../images/retro-ad1.png);
-    }
-    .ad-container h1{
-        color: #fff;
-        font-size: 2.5em;
-        text-align: center;
-    }
-    /* AD ENDED HERE */
+
+  /* AD STARTED HERE */
+  .ad-container {
+    margin-top: 15%;
+    width: 70%;
+    margin-left: 15%;
+    height: 100px;
+    padding: 10px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        to left,
+        rgba(5, 63, 151, 0.6),
+        rgba(236, 110, 37, 0.5)
+      ),
+      url(../images/retro-ad1.png);
+  }
+  .ad-container h1 {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  /* AD ENDED HERE */
 
   /* contact */
   .contact-container {
@@ -1300,26 +1312,30 @@ nav {
     color: #585858;
   }
 
-    /* AD STARTED HERE */
-    .ad-container{
-        margin-top: 15%;
-        width: 70%;
-        margin-left: 15%;
-        height: 120px;
-        padding: 10px 0;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to left, rgba(5, 63, 151, 0.6), rgba(236, 110, 37, 0.5)),
-        url(../images/retro-ad1.png);
-        padding: 10px 0;
-    }
-    .ad-container h1{
-        color: #fff;
-        font-size: 3.2em;
-        text-align: center;
-    }
-    /* AD ENDED HERE */
+  /* AD STARTED HERE */
+  .ad-container {
+    margin-top: 15%;
+    width: 70%;
+    margin-left: 15%;
+    height: 120px;
+    padding: 10px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        to left,
+        rgba(5, 63, 151, 0.6),
+        rgba(236, 110, 37, 0.5)
+      ),
+      url(../images/retro-ad1.png);
+    padding: 10px 0;
+  }
+  .ad-container h1 {
+    color: #fff;
+    font-size: 3.2em;
+    text-align: center;
+  }
+  /* AD ENDED HERE */
 
   /* contact */
   .contact-container {
