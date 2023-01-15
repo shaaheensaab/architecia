@@ -1004,6 +1004,252 @@ nav{
         color: #fff;
     }
 
+    /* achievement */
+    .achievement-info > h1{
+        font-size: 1.5em;
+    }
+    .achievement-info > p{
+        font-size: 0.8em;
+    }
+    .a-card{
+        width: 15%;
+        font-size: 0.9em;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #e67e07;
+    }
+    .a-card h5{
+        font-size: 1em;
+        color: #585858;
+    }
+    .a-card i{
+        font-size: 1.5em;
+        color: #FF900E;
+    }
+    .a-card p{
+        font-size: 0.8em;
+        font-weight: 500;
+        color: #585858;
+    }
+
+    /* contact */
+    .contact-container{
+        width: 50%;
+        margin-top: 5%;
+        padding: 5px 100px;
+        border-radius: 10px;
+        background-color: #f1f0f0;
+    }
+    .contact-info h1{
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    .submit-btn{
+        margin-top: 5%;
+        margin-left: 42%;
+    }
+    
+    /* sponsor */
+    .sponsor-info{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .sponsor-info h1{
+        font-size: 1.2em;
+    }
+    .sponsor-info p{
+        font-size: 0.8em;
+        color: #777777;
+    }
+    .sponsor-img img{
+        width: 50px;
+        filter: grayscale(100%);
+        opacity: 0.5;
+    }
+
+    /* footer */
+    .sponsor-info{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .sponsor-info h1{
+        font-size: 1.5em;
+    }
+    .sponsor-info p{
+        font-size: 0.8em;
+        color: #777777;
+    }
+    .sponsor-img img{
+        width: 70px;
+        filter: grayscale(100%);
+        opacity: 0.5;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1879px) {
+    /* spec */
+    .spec-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: 18%;
+        width: 70%;
+    }
+    .spec-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .spec-info-heading h1{
+        font-size: 2em;
+        width: 80%;
+        padding: 0 3%;
+        line-height: 100%;
+        border-left: 6px solid #FF900E;
+    }
+    .spec-info-heading > p{
+        margin: 5% 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+    }
+    .spec-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .spec-card{
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.05);
+    }
+    .spec-card h2{
+        font-size: 0.9em;
+    }
+    .spec-card p{
+        font-size: 0.8em;
+        margin-top: 2%;
+        line-height: 1.2;
+    }
+    .spec-img{
+        width: 65%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .spec-img img{
+        width: 140%;
+        height: 500px;
+        object-fit: cover;
+        object-position: -80px -250px;
+    }
+    .spec-btn{
+        position: relative;
+        right: -50%;
+        top: 0%;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        font-weight: 700;
+        color: #fff;
+        padding: 10px 40px;
+        line-height: 80%;
+        background-color: #FF900E;
+    }
+    .spec-btn span{
+        font-size: 10px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    /* achievement */
+    .achievement-info > h1{
+        font-size: 1.8em;
+    }
+    .achievement-info > p{
+        font-size: 0.8em;
+    }
+    .a-card{
+        width: 10%;
+        font-size: 0.9em;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #e67e07;
+    }
+    .a-card h5{
+        font-size: 1em;
+        color: #585858;
+    }
+    .a-card i{
+        font-size: 1.5em;
+        color: #FF900E;
+    }
+    .a-card p{
+        font-size: 0.8em;
+        font-weight: 500;
+        color: #585858;
+    }
+
+    /* contact */
+    .contact-container{
+        width: 50%;
+        margin-top: 5%;
+        padding: 5px 100px;
+        border-radius: 10px;
+        background-color: #f1f0f0;
+    }
+    .contact-info h1{
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    .submit-btn{
+        margin-top: 5%;
+        margin-left: 42%;
+    }
+
+    /* sponsor */
+    .sponsor-info{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .sponsor-info h1{
+        font-size: 1.2em;
+    }
+    .sponsor-info p{
+        font-size: 0.8em;
+        color: #777777;
+    }
+    .sponsor-img img{
+        width: 50px;
+        filter: grayscale(100%);
+        opacity: 0.5;
+    }
+
+    /* footer */
+    .sponsor-info{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .sponsor-info h1{
+        font-size: 1.5em;
+    }
+    .sponsor-info p{
+        font-size: 0.8em;
+        color: #777777;
+    }
+    .sponsor-img img{
+        width: 70px;
+        filter: grayscale(100%);
+        opacity: 0.5;
+    }
+
+
 }
 
 /* ************* @MEDIA QUERY RESPONSIVE DECLARATION ENDED HERE ************** */
