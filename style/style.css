@@ -1,0 +1,173 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* common styles */
+.hide{
+    display: none;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+.container{
+    width: 75%;
+    margin: 0px auto;
+}
+.btn-primary{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FF900E;
+}
+
+/* styles */
+
+/* --------header started here ---------- */
+header{
+    background-color: rgba(255, 150, 15, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.nav-logo{
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.nav-item ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-weight: 600;
+}
+.nav-item a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* header banner */
+.banner-section{
+}
+.banner-info{
+    text-align: center;
+}
+.banner-info h1{
+    font-size: 2.5em;
+}
+.banner-info p{
+    width: 40%;
+    margin: 20px auto;
+}
+.banner-img img{
+    width: 80%;
+    height: 50%;
+    padding: 20px 0;
+    margin-left: 10%;
+}
+/* --------header ended here ---------- */
+
+/* --------- featured started here --------- */
+.featured-container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.featured-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    width: 40%;
+    margin-left: 15%;
+}
+.featured-img img{
+    width: 95%;
+}
+.featured-info{
+    width: 25%;
+    margin-left: 15%;
+}
+/* --------- featured ended here --------- */
+
+
+
+/* ************* @MEDIA QUERY RESPONSIVE DECLARATION STARTS HERE ************** */
+
+/* mobile devices compatibility*/
+@media screen and (max-width: 576px) {
+    /* common */
+    .btn-primary{
+        color: #fff;
+        font-size: 0.8em;
+        font-weight: 500;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        background-color: #FF900E;
+    }
+
+    /* header */
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-item{
+        padding: 5px 0;
+        border-style: solid;
+        border-width: 1px 0;
+        border-color: #d8d8d8;
+    }
+
+    /* banner */
+    .banner-section{
+        margin-top: 10%;
+    }
+    .banner-info h1{
+        font-size: 2.5em;
+    }
+    .banner-info p{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+        margin-left: 0%;
+    }
+
+    /* featured */
+    .featured-container{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .featured-img{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .featured-img img{
+        width: 100%;
+    }
+    .featured-info{
+        margin-top: 10%;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .featured-info p{
+        margin: 5% 0;
+    }
+
+}
+
+/* ************* @MEDIA QUERY RESPONSIVE DECLARATION ENDED HERE ************** */
